@@ -1,0 +1,90 @@
+*, html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+html{
+    font-family: Helvetica;
+}
+.title{
+    background-color: skyblue;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    text-transform: lowercase;
+    padding: 8px 0;
+
+
+
+
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 92VH;
+
+}
+.container{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container label{
+    font-size: 20px;
+}
+
+
+.container input{
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 18px 8px;
+    font-size: 25px;
+    outline: none;
+
+}
+
+
+.container div{
+    font-size: 25px;
+    
+    
+}
+
+.container button {
+    width: 150px;
+    margin-top: 10px;
+    font-size: 20px;
+    padding: 15px 0;
+    cursor: pointer;
+    background-color: skyblue;
+    border: none;
+    border-radius: 100px; /* Menambahkan sudut bulat pada border */
+    transition-duration: 0.4s;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  /* Hover state */
+  .container button:hover {
+    background-color: lightblue; /* Ubah warna latar belakang saat hover */
+  }
+  
+  /* Pressed state */
+  .container button:active {
+    transform: translateY(2px); /* Menggeser tombol saat ditekan */
+    background-color: deepskyblue; /* Ubah warna latar belakang saat ditekan */
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2); /* Menambahkan bayangan saat ditekan */
+  }
+  
+
+
+
+
+
+
+
+
+
